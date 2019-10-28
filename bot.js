@@ -76,7 +76,7 @@ client.on('guildMemberRemove', member => {
 });
 client.on('message', message => {
     if (message.isMentioned(client.user)) {
-       message.reply(callie());
+       message.channel.send(callie());
        }
 });
 
