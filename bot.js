@@ -58,7 +58,9 @@ var quotes = [
 "You're pretty shellfish you know.",
 "You've gotta be squiddin' me! Gramps got captured AGAIN?"
 ];
-return quotes[Math.floor(Math.random() * 54)];
+var lines = quotes[Math.floor(Math.random() * 54)];
+console.log(lines);
+return lines;
 };
 client.on('ready', () => {
     console.log('ready');
@@ -68,11 +70,13 @@ client.on('guildMemberAdd', member => {
 	const channel = member.guild.channels.find(ch => ch.name === 'general');
 	if (!channel) return;
 	channel.send(`Hold on to your tentacles! ${member} has joined the server!`);
+	console.log('member joined');
 });
 client.on('guildMemberRemove', member => {
 	const channel = member.guild.channels.find(ch => ch.name === 'general');
 	if (!channel) return;
 	channel.send(`Stay fresh! ${member} Seeya!`);
+	console.log('member left');
 });
 client.on('message', message => {
     if (message.isMentioned(client.user)) {
