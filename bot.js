@@ -50,11 +50,14 @@ var quotes = [
 "Um, nope, this is definitely not Callie!",
 "Watch me flip a sick ollie, brah!",
 "Where does Judd go while the battle's going on?",
+"Where's Marie when you need her?",
 "Who would WANT to look like Crusty Sean, though?",
+"Woah! You made my day!",
 "Yayer!",
 "Yeah! Let's ROCK!",
 "You wanna talk smack? Put up or shut up!",
 "You're just jealous that I make most of my day.",
+"You're making me feel all warm and fuzzy!",
 "You're pretty shellfish you know.",
 "You've gotta be squiddin' me! Gramps got captured AGAIN?"
 ];
