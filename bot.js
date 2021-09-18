@@ -61,7 +61,7 @@ var quotes = [
 "You're pretty shellfish you know.",
 "You've gotta be squiddin' me! Gramps got captured AGAIN?"
 ];
-var lines = quotes[Math.floor(Math.random() * 54)];
+var lines = quotes[Math.floor(Math.random() * quotes.length)];
 console.log(lines);
 return lines;
 };
